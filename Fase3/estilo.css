@@ -1,0 +1,258 @@
+footer{
+    background-color:black ;
+    color: aquamarine;
+    text-align: center;
+    padding: 1px;
+}
+header{
+    display: flex;
+    background-color:blue;
+    color: aliceblue;
+    font-size: 50px;
+    padding: 0px auto;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0px;
+    background-color: blue;
+    color: aliceblue;  
+    margin: auto;
+    font-size: 40px ;
+    font-display: auto;
+      
+}
+.img{
+    display: flex;
+}
+
+#p2{
+   background-color:blue;
+   color: aliceblue;
+    text-align: center;
+    display: flex;
+}
+#h3{
+    background-color: blue;
+    color: aliceblue;
+    
+}
+#h4{
+    background-color: blue;
+    color: aliceblue;
+    margin: 30px auto;
+}
+article{
+    background-color: black;
+    color: aliceblue;
+    grid-column: 1/4;
+}
+aside{
+    background-color: aqua;
+    padding: 0px; 
+    grid-column:4/5 ;
+    margin: auto;
+}
+#tex{
+    display: right;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#menu{
+    background-color: rgb(14, 14, 92);
+}
+#menu ul li a:hover{
+ background-color: gray;
+
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a {
+    color: white;
+    display: block;
+    padding: 20px 60px;
+    text-decoration: none;
+}
+
+#menu li a{
+    background-color:rgb(14, 14, 92) ;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+#menu>li{
+    float: left;
+
+}
+#menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+#menu li:hover>ul{
+display: block;
+}
+#menu li ul li{
+    position: relative;
+    display: block;
+    text-align: in;
+}
+
+#menu li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+#menu>li{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .menu{
+    padding: 0px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color:rgb(11, 11, 65);
+    color: aliceblue;
+    font-size: 30px; 
+
+    /* width: auto;
+    height: auto;
+    margin: auto;
+    z-index: 10px;
+    opacity: none; */
+    
+
+/* }
+.menu li{
+    float: left;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(11, 11, 65);
+    row-gap: 1;
+    list-style: none; 
+
+    /* display: inline;
+    padding: auto;
+    color:black;
+    display: block;
+  
+}
+
+/* .menu li a {
+   background-color: black;
+   color: white;
+   text-decoration: none;
+   padding: 20px 80 px;
+   display: block;
+
+}
+.menu li a:hover{
+    background-color: skyblue;
+
+} */
+
+/* .menu li ul{
+    display: none;
+    margin-left: auto;
+    margin-left: auto;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover> ul{
+    display: block;
+}
+.menu li ul li{
+    position: relative;
+} */ 
+
+/* .menu li ul li ul{
+    right: 140px;
+} */
+/* nav{
+    height: 100%;
+}
+nav>ul{
+    height: 100%;
+    display: flex;
+}
+nav>ul>li{
+height: 100%;
+list-style: none;
+position: relative;
+} */
